@@ -1,0 +1,16 @@
+[
+  {
+    "id": "shatter_client_quicktest_01",
+    "source": "Shatter Client Manual",
+    "tags": ["shatter_client", "quick_test"],
+    "embedding": [0.12, -0.04, 0.33, 0.2],
+    "text": "To use Quick Test, export your segments from Shatter OSS using the Quick Test button..."
+  },
+  {
+    "id": "shatter_oss_segments_01",
+    "source": "Shatter OSS Manual",
+    "tags": ["shatter_oss", "segments"],
+    "embedding": [-0.22, 0.18, 0.05, 0.03],
+    "text": "Segments in Shatter OSS define the structure of a Smash Hit level..."
+  }
+]

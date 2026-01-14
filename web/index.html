@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Shatter Assistant</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="chat">
+  <div id="about">
+    <h2>Welcome to Shatter Assistant!</h2>
+    <p>An AI assistant that helps with Shatter Client/OSS for Smash Hit.</p>
+  </div>
+</div>
+<div class="bottom-nav">
+  <div class="input-field">
+    <input id="input" type="text" placeholder="Ask something…">
+  </div>
+  <button onclick="sendMessage()" class="btn" id="sendBtn" disabled>Send</button>
+</div>
+<script src="https://unpkg.com/@mlc-ai/web-llm/dist/index.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
